@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="indexInside.css" />
+    <title>Document</title>
+  </head>
+  <body onload = "welcomeFunction()">
+    <div class="container">
+      <header>
+        <h1>Tourist Info</h1>
+        <div class="search">
+          <input
+            type="text"
+            id="search"
+            name="search"
+            placeholder="Search By Id"
+          />
+          <button type="submit" onclick="searchInfo()" id="search-btn">
+            search
+          </button>
+        </div>
+      </header>
+      <div class="table">
+        <table border="1" id="table">
+          <tr id="mainRow">
+            <th onclick="sortData()">Id</th>
+            <th>tourist_name</th>
+            <th>tourist_email</th>
+            <th>tourist_location</th>
+            <th>Update</th>
+          </tr>
+        </table>
+      </div>
+      <br /><br />
+      <div class="btns">
+        <button type="submit" class="button" id="btn1" onclick="getData()">
+          Get Tourist Data
+        </button>
+        <button type="submit" class="button" id="entryBtn">
+          <a href="editForm.html" >Create New Entry</a>
+        </button>
+        <button type="submit" class="button"><a href="signIn.html">LogOut</a></button>
+        
+      </div>
+    </div>
+    <script src="insideScript.js"></script>
+  </body>
+</html>

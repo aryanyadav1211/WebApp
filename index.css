@@ -1,0 +1,57 @@
+.div-form {
+    height: 550px;
+    margin: 50px auto;
+    background-color: rgb(200, 252, 252);
+    width: 40vw;
+    padding: 20px 40px;
+    border: 2px solid rgb(3, 80, 247);
+  }
+  
+  #form {
+    margin: auto;
+    width: 62%;
+  }
+  
+  .email {
+    width: 30vw;
+    margin: auto;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 4%;
+    color: rgb(3, 80, 247);;
+  }
+  label {
+    font-size: 21px;
+    margin: auto;
+  }
+  .textbox {
+    height: 21px;
+    width: 24vw;
+    margin: 2%;
+  }
+  .btn {
+    background-color: rgb(121, 174, 253);
+    margin: auto;
+    padding: 6px 15px 6px 15px;
+  }
+  #signInHeading{
+    color: rgb(1, 124, 124);
+    margin-bottom: 10%;
+  }
+  label::before{
+    content: '*';
+    color: red;
+  }
+  p::before{
+    content: '*';
+    color: red;
+  }
+  #signInBtn{
+    margin: 2%;
+  }
+  p{
+    font-size: 21px;
+  }
+  
+  

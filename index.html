@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Final Assignment</title>
+</head>
+<body>
+    <header>
+        <h1>Final Assignment</h1>
+    </header>
+    <div class="div-form">
+      <form action="" id="form">
+        <h1>Sign Up Form</h1>
+        <label for="name" class="Email">Email:</label><br />
+        <input type="text" id="email" class="textbox" value="" required />
+        <br />
+
+        <p>Select Your Role:</p>
+       
+        <input type="radio" name="browser" class="radio" onclick="getRole(this.value)" value="admin">Admin<br><br>
+        <input type="radio" name="browser" class="radio" onclick="getRole(this.value)" value="user" >User<br>
+        
+        <br>
+        <label for="Password" class="Email Password">Password</label><br />
+        <input type="text" id="password" class="textbox" value="" required/>
+        <br /><br />
+
+        <label for="confirmPassword" class="Email Confirm Password"
+          >Confirm Password</label
+        ><br />
+        <input type="text" id="confirmPassword" class="textbox" value="" required/>
+        <br /><br />
+
+        <input type="button" value="Submit" id="btn" onclick="signUp()" /><br/>
+        <h3>Already have an account &nbsp; <a href="signIn.html"> Sign In...</a></h3>
+      </form>
+    </div>
+    <script src="insideScript.js"></script>
+</body>
+</html>

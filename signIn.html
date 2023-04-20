@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>form assignment</title>
+  </head>
+  <body>
+    <div class="div-form">
+      <form action="" id="form">
+        <h1 id="signInHeading">Sign In Form</h1>
+        <label for="name" class="Email">Email:</label><br />
+        <input type="text" id="email" class="textbox" value="" required />
+        <br /><br />
+
+        <label for="Password" class="Email Password">Password</label><br />
+        <input type="text" id="password" class="textbox" value="" required />
+        <br /><br />
+
+        <input type="button" value="Submit" id="signInBtn" onclick="signIn()" />
+        <br />
+        <h3>
+          Don't have account! &nbsp; <a href="index.html"> Sign Up...</a>
+        </h3>
+      </form>
+    </div>
+    <script src="insideScript.js"></script>
+  </body>
+</html>
